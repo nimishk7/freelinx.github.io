@@ -12,6 +12,8 @@ import conversationRoute from "./routes/conversation.route.js";
 import messageRoute from "./routes/message.route.js";
 import reviewRoute from "./routes/review.route.js";
 
+const PORT = process.env.PORT 
+
 const app = express();
 dotenv.config();
 mongoose.set("strictQuery", true);
